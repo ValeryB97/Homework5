@@ -29,11 +29,11 @@ public class Main {
         // Задание 4
         int deliveryDistance = 54;
         if (deliveryDistance <= 20) {
-            System.out.println("Потребуеться один день для доставки");
+            System.out.println("Потребуется один день для доставки");
         } else if (deliveryDistance > 20 && deliveryDistance <= 60) {
-            System.out.println("Потребуеться два дня для доставки");
+            System.out.println("Потребуется два дня для доставки");
         } else if (deliveryDistance > 60 && deliveryDistance <= 100) {
-            System.out.println("Потребуеться три дня для доставки");
+            System.out.println("Потребуется три дня для доставки");
         } else if (deliveryDistance > 100) {
             System.out.println("Доставки нет");
         }
@@ -48,7 +48,7 @@ public class Main {
             case 3:
             case 4:
             case 5:
-                System.out.println("Этот месяц весений");
+                System.out.println("Этот месяц весенний");
                 break;
             case 6:
             case 7:
